@@ -1,9 +1,9 @@
 ---
-name: Solicitud de característica
-about: Sugerir una idea para el proyecto
-title: ''
+nombre: Solicitud de característica
+información: Sugerir una idea para el proyecto
+titulo: ''
 labels: ''
-assignees: ''
+asignados: ''
 
 ---
 

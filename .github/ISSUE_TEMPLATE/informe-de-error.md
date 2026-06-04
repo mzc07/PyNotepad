@@ -1,9 +1,9 @@
 ---
-name: Informe de error
-about: Crea un informe para ayudarnos a mejorar
-title: ''
+nombre: Informe de error
+información: Crea un informe para ayudarnos a mejorar
+titulo: ''
 labels: bug
-assignees: ''
+asignados: ''
 
 ---
 
