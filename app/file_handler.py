@@ -1,13 +1,11 @@
 from tkinter import messagebox, filedialog
 
+
 def abrir_archivo(text_widget):
     try:
         ruta_archivo = filedialog.askopenfilename(
             title="Abrir archivo",
-            filetypes=[
-                ("Archivos de texto", "*.txt"),
-                ("Todos", "*.*")
-            ],
+            filetypes=[("Archivos de texto", "*.txt"), ("Todos", "*.*")],
         )
 
         if not ruta_archivo:
