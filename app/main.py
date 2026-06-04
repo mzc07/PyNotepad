@@ -9,11 +9,11 @@ class Aplicacion(tk.Tk):
         self.title("PyNotepad")
         self.minsize(400, 300)
         self.resizable(True, True)
-        self.ruta_archivo = tk.PhotoImage(file='app/icons/Notepad.png')
-        self.iconphoto(True,self.ruta_archivo)
+        self.ruta_archivo = tk.PhotoImage(file="app/icons/Notepad.png")
+        self.iconphoto(True, self.ruta_archivo)
 
-        self.menubar = MenuBar(self)
         self.editor = Editor(self)
+        self.menubar = MenuBar(self, self.editor)
 
     def run(self):
         self.mainloop()
