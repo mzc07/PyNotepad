@@ -1,5 +1,6 @@
 import tkinter as tk
 from editor import Editor
+from menubar import MenuBar
 
 class Aplicacion(tk.Tk):
     def __init__(self):
@@ -7,7 +8,9 @@ class Aplicacion(tk.Tk):
         self.title('PyNotepad')
         self.minsize(400,300)
         self.resizable(True,True)
+        self.menubar = MenuBar(self)
         self.editor = Editor(self)
+        
 
 
     def run(self):
