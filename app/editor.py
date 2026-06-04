@@ -8,7 +8,7 @@ class Editor:
 
         self.text = tk.Text(
             parent,
-            font=("Courier", 12),
+            font=("Courier", 24),
             bg="#ffffff",
             yscrollcommand=self.scrollbar.set,
         )
